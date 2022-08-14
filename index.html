@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id = "container">
+
+        <div id = "displayer">
+            <h1 id = "display">0</h1>
+        </div>
+
+        <div id = "first column">
+            <button onclick="operater('/')">/</button>
+            <button onclick="operater('*')">*</button>
+            <button onclick="operater('-')">-</button>
+            <button onclick="operater('+')">+</button>
+        </div>
+
+        <div id= "second column">
+            <button onclick="getanumbo(1)">1</button>
+            <button onclick="getanumbo(2)">2</button>
+            <button onclick="getanumbo(3)">3</button>
+            <button onclick="getanumbo(4)">4</button>
+            <button onclick="getanumbo(5)">5</button>
+        </div>
+
+        <div id = "third column">
+            <button onclick="getanumbo(6)">6</button>
+            <button onclick="getanumbo(7)">7</button>
+            <button onclick="getanumbo(8)">8</button>
+            <button onclick="getanumbo(9)">9</button>
+            <button onclick="getanumbo(0)">0</button>
+        </div>
+
+        <div id = "fourth column">
+            <button onclick="operate()">=</button>
+            <button onclick = "reset()">C</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
