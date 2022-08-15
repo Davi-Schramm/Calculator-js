@@ -28,6 +28,9 @@ function operate(){
 
 function getanumbo(numb){
     document.getElementById("display").innerText += numb;
+    var number = document.getElementById("display").textContent;
+    number = Number(number);
+    document.getElementById("display").innerText = number;
 };
 
 function operater(op){

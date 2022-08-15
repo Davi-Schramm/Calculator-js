@@ -1,10 +1,41 @@
-#container{
+body{
+    background-color: grey;
 }
 
 #displayer{
     background-color: grey;
+    width: 250px;
+    margin-left: 5px;
+    margin-top:5px;
+    border: 2px dotted black;
+    border-radius: 10%;
+}
+
+#container{
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 20%;
+    height: 400px;
+}
+
+#container div button{
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: skyblue;
+    border-radius: 30%;
+}
+
+#container #first-column button{
+    width: 63px;
+}
+
+#enter{
     width: 200px;
 }
 
-#contaner div{
+#container #second-column,
+#container #third-column{
+    margin-left:70px;
 }
