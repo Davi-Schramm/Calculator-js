@@ -15,33 +15,38 @@
         </div>
 
         <div id = "first-column">
-            <button onclick="operater('/')">/</button>
-            <button onclick="operater('*')">*</button>
-            <button onclick="operater('-')">-</button>
-            <button onclick="operater('+')">+</button>
+            <button onclick = "reset()" id = "clear" style="width:73%" class = "headers">C</button>
+            <button onclick="operater('/')" class = "operators">/</button>
         </div>
 
         <div id= "second-column">
-            <button onclick="getanumbo(1)">1</button>
-            <button onclick="getanumbo(2)">2</button>
-            <button onclick="getanumbo(3)">3</button>
-            <br>
-            <button onclick="getanumbo(4)">4</button>
-            <button onclick="getanumbo(5)">5</button>
-            <button onclick="getanumbo(6)">6</button>
+
+            <button onclick="getanumbo(7)" class = "numbos headers" >7</button>  
+            <button onclick="getanumbo(8)" class = "numbos" >8</button>                      
+            <button onclick="getanumbo(9)" class = "numbos" >9</button>
+            <button onclick="operater('*')" class = "operators">*</button>
+
+
         </div>
 
         <div id = "third-column">
-            <button onclick="getanumbo(7)">7</button>
-            <button onclick="getanumbo(8)">8</button>
-            <button onclick="getanumbo(9)">9</button>
-            <br>
-            <button onclick="getanumbo(0)" style="margin-left:42px;">0</button>
+
+            <button onclick="getanumbo(4)" class = "numbos headers" >4</button>
+            <button onclick="getanumbo(5)" class = "numbos" >5</button>
+            <button onclick="getanumbo(6)" class = "numbos" >6</button>
+            <button onclick="operater('-')" class = "operators">-</button>
+
         </div>
 
         <div id = "fourth-column">
-            <button onclick="operate()" id="enter">=</button>
-            <button onclick = "reset()" id = "clear">C</button>
+            <button onclick="getanumbo(1)" class = "numbos headers" >1</button>
+            <button onclick="getanumbo(2)" class = "numbos" >2</button>
+            <button onclick="getanumbo(3)" class = "numbos" >3</button>
+            <button onclick="operater('+')" class = "operators">+</button>
+        </div>
+        <div id = "fifth-column">
+            <button onclick="getanumbo(0)" class = "numbos headers" style="width:73%;">0</button>
+            <button onclick="operate()" id="enter" class = "operators">=</button>
         </div>
 
     </div>

@@ -22,7 +22,10 @@ function operate(){
         document.getElementById("display").innerText = multiply(numbo,n2);
     }
     else if(operator == '/'){
+        if (n2 == 0){alert("Can't divide by 0")}
+        else{
         document.getElementById("display").innerText = divide(numbo,n2);
+        }
     }
 }
 
@@ -34,6 +37,7 @@ function getanumbo(numb){
 };
 
 function operater(op){
+    operate();
     numbo = Number(document.getElementById("display").textContent);
     document.getElementById("display").innerText = 0;
     operator = op;
@@ -47,4 +51,8 @@ function reset(){
     numbo = 0;
     operator = '+';
     document.getElementById("display").innerText = 0;
+}
+
+function redirect(symbol){
+    
 }
