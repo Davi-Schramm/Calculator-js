@@ -52,7 +52,3 @@ function reset(){
     operator = '+';
     document.getElementById("display").innerText = 0;
 }
-
-function redirect(symbol){
-    
-}

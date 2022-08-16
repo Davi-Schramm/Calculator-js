@@ -35,8 +35,20 @@ body{
     background-color: rgb(16, 224, 228);
 }
 
+.numbos:active{
+    width: 63px;
+    height: 63px;
+    background-color: rgb(93, 238, 240);
+}
+
 .operators{
     background-color: orange;
+    width: 63px;
+    height: 63px;
+}
+
+.operators:active{
+    background-color: rgb(245, 204, 129);
     width: 63px;
     height: 63px;
 }
@@ -44,6 +56,11 @@ body{
 #clear{
     height: 63px;
     background-color: skyblue;
+}
+
+#clear:active{
+    height: 63px;
+    background-color: rgb(184, 225, 241);
 }
 
 .headers{
